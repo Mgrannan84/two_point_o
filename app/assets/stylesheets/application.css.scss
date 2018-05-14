@@ -51,6 +51,19 @@
  }
  
  
+.navbar-defualt .navbar-toggle .icon-bar {
+  background-color: white;
+ }
+ 
+.navbar-defualt .navbar-toggle  {
+  border: 2px solid white;
+  &:hover, &:focus {
+   background-color: #00c6ff;
+  }
+ }
+ 
+ 
+ 
 //HOME PAGE CONTENT
 .home-callout {
    color: white;
