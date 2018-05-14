@@ -19,6 +19,7 @@
  @import 'bootstrap';
  
  
+ // NAVBAR STYLES 
  .navbar, .home-callout {
    background: #283048;  /* fallback for old browsers */
    background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
@@ -26,29 +27,22 @@
  }
  
  .navbar {
-   
    color: #fff;
    border: none;
  }
  
  .navbar-default .navbar-brand,
  .navbar-default .navbar-nav > li > a {
-    
     color: white;
+     &:hover {
+      color: white;
+      opacity: 0.75;
+     }
  }
  
  
- .navbar-default .navbar-brand:hover,
- .navbar-default .navbar-nav > li > a:hover {
-    
-    color: white;
-    opacity: 0.75;
- }
- 
-
- 
- .home-callout {
-   
+//HOME PAGE CONTENT
+.home-callout {
    color: white;
    margin-top: -20px;
    padding-top: 50px;
@@ -56,7 +50,5 @@
  }
  
  h1, h2, h3 {
-   
    font-family: 'Open Sans', sans-serif;
-   
  }
