@@ -37,13 +37,13 @@ User Profiles
  ...
 Example Profiles
  
- * test@test.com / testee
- * developer@developer.com / developer
- * Regina@George / regina
+ * Misael@Huntington / misaelhuntington
+ * Wendy@Gillingham / wendygillingham
+ * Regina@George / reginageorge
  * Alan@Basic / alanbasic
  * Ben@Matteson / benmatteson
  * Declan@Jones / declanjones
  * Jameson@Walters / jamesonwalters
  * Amanda@Adams / amandaadams
  * Lucy@Liu / lucyliu
- * Jason Stanton USE jane@jenson / janejenson
+ * Jason@Stanton / jasonstanton
