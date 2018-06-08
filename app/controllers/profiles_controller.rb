@@ -20,12 +20,27 @@ def create
   end
 end
 
-
+#for get request made to /user/:user_id/profile/edit
 def edit
-  #for get request made to /user/:user_id/profile/edit
   @user = User.find( params[:user_id] )
   @profile = @user.profile
 end
+
+
+#Patch to /users/:user_id/profile
+def update
+  #Mass assign edited profile attributes and save (update)
+  @user = User.find( params[:user_id] )
+  @profile = @user.profile
+  if @profile.update_attributes(profile_params)
+  flash[:success] = "Profile updated!"
+  #redirect user to their profile.
+  redirect_to user_path(id: params[:user_id] )
+  else
+  render action: :edit
+  end
+end
+
 
 private
   def profile_params
