@@ -11,7 +11,9 @@ Memberships
 
 
 ...
-Stripe Integration
+Stripe Integration 
+
+*  jupf-eoyj-irqz-wtss-wsnd
 
 * Users should have a stripe customer token in the users table.
 * Javascript should prevent Pro form from submitting, when user fills it out,
@@ -35,9 +37,13 @@ User Profiles
  ...
 Example Profiles
  
- * Alan Basic
- * Ben Matteson
- * Declan Jones
- * Jameson Walters
- * Amanda Adams
- * Lucy Liu
+ * test@test.com / testee
+ * developer@developer.com / developer
+ * Regina@George / regina
+ * Alan@Basic / alanbasic
+ * Ben@Matteson / benmatteson
+ * Declan@Jones / declanjones
+ * Jameson@Walters / jamesonwalters
+ * Amanda@Adams / amandaadams
+ * Lucy@Liu / lucyliu
+ * Jason Stanton USE jane@jenson / janejenson
